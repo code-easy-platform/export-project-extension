@@ -1,7 +1,8 @@
 {
-  "name": "export-project-extension",
+  "name": "pb-export-project-extension",
   "version": "1.0.0",
   "module": "dist/index.es.js",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build"
