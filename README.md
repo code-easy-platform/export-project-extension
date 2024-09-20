@@ -1,27 +1,21 @@
-# Extensions
+# Export project extension
 
 ## Overview 
 
-This repository include dist files, it because the GitHub link is used in the flow editor directly to install this package without need npm package.
+This project is a extension for page builder
 
 ## Build
 
-Run yarn build before push new to to the new branch
+Run yarn build to build the project
+
 ```
 yarn build
 ```
 
-## How to create new versions
+## Deploy
 
-We will work directly in the master branch with new features. When a new version is ready, we must create a new branch which his name will be the version number. And then where the package is installed you must use the correctly branch to link.
+This project is at the npm.
 
-```json
-{
-  "dependencies": {
-    "@pb/flow-editor": "github:code-easy-platform/flow-editor#1.0.0",
-  }
-}
 ```
-Which:
-
-`"{package-name}": "github:{organization-name|user-name}/{repository-name}#{branch-name}",`
+npm publish
+```
