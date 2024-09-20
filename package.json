@@ -1,6 +1,6 @@
 {
   "name": "pb-export-project-extension",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "module": "dist/index.es.js",
   "private": false,
   "scripts": {
