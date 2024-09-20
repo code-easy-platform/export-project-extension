@@ -1,0 +1,16 @@
+{
+  "name": "export-project-extension",
+  "version": "1.0.0",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@pb/extensions": "github:code-easy-platform/extensions#1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "vite": "^5.4.6"
+  }
+}
