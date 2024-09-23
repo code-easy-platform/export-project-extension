@@ -1,0 +1,12 @@
+{
+  "name": "Download Project as JSON",
+  "packageName": "pb-export-project-extension",
+  "description": "This extension allows you to download a JSON-formatted version of your project. The downloaded file will contain a structured representation of your project, including all key details, configurations, and settings, making it easy to store, share, or process in other tools. Ideal for backups, versioning, or exporting data to integrate with other systems.",
+  "exporters": [
+    {
+      "key": "project-export",
+      "label": "Export project",
+      "description": "Generate a json file with the all structure of the project"
+    }
+  ]
+}

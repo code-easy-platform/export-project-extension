@@ -1,7 +1,8 @@
 {
   "name": "pb-export-project-extension",
-  "version": "1.0.3",
-  "module": "dist/index.es.js",
+  "version": "1.0.10",
+  "module": "dist/index.js",
+  "manifest": "manifest.json",
   "private": false,
   "scripts": {
     "dev": "vite",
