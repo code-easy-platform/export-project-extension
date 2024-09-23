@@ -119,8 +119,9 @@
 
 "@pb/extensions@github:code-easy-platform/extensions#1.0.0":
   version "1.0.0"
-  resolved "https://codeload.github.com/code-easy-platform/extensions/tar.gz/b0823affb0e0cf0c9403d670803ec9daf4d667fb"
+  resolved "https://codeload.github.com/code-easy-platform/extensions/tar.gz/7cb132f64f047e1fb6a77bd4e06a945750c09a77"
   dependencies:
+    react-observing "^2.6.16"
     typescript "^5.6.2"
     vite "^5.4.6"
 
@@ -262,6 +263,13 @@ postcss@^8.4.43:
     picocolors "^1.1.0"
     source-map-js "^1.2.1"
 
+react-observing@^2.6.16:
+  version "2.6.16"
+  resolved "https://registry.yarnpkg.com/react-observing/-/react-observing-2.6.16.tgz#2393c506e9665456dffebd724523344851f01a72"
+  integrity sha512-7mve2xldsllE6HuyDgHONScKHUtb9zGZl/FJRyPnZHBwRR87BLtPWOFNlSt1GdHRvAPVqocj+D7CAiojggRQQA==
+  dependencies:
+    uuid "^9.0.1"
+
 rollup@^4.20.0:
   version "4.22.4"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-4.22.4.tgz#4135a6446671cd2a2453e1ad42a45d5973ec3a0f"
@@ -296,6 +304,11 @@ typescript@^5.6.2:
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.2.tgz#d1de67b6bef77c41823f822df8f0b3bcff60a5a0"
   integrity sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==
+
+uuid@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 vite@^5.4.6:
   version "5.4.7"
