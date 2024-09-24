@@ -5,7 +5,7 @@
   "manifest": "manifest.json",
   "private": false,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite build --watch --sourcemap & vite",
     "build": "vite build"
   },
   "dependencies": {
